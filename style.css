@@ -12,4 +12,13 @@
  button {
     background-color: #f04444;
     color: aliceblue;
+    font-family: "Bai Jamjuree", sans-serif;
+ }
+
+ .passo {
+    display: none;
+ }
+
+ .passo.ativo{
+   display: block;
  }
