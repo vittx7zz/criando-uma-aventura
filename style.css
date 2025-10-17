@@ -1,24 +1,35 @@
- body {
-    background-color: #8a0a0a;
-    color: aliceblue;
-    font-family: "Bai Jamjuree", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    margin: 0;
- }
+body {
+  background-color: #a30404;
+  color: #000000;
+  font-family: "Yusei Magic", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: 15%;
+}
 
- button {
-    background-color: #f04444;
-    color: aliceblue;
-    font-family: "Bai Jamjuree", sans-serif;
- }
+button {
+  color: #ffffff;
+  border-color: #a70000;
+  font-family: "Yusei Magic", sans-serif;
+  background-color: #e00c0c;
+}
 
- .passo {
-    display: none;
- }
+.passo {
 
- .passo.ativo{
-   display: block;
- }
+  display: none;
+}
+
+.passo.ativo {
+  display: block;
+}
+
+main {
+  text-align: center;
+  max-width: 90%;
+}
+
+img {
+  max-width: 80%;
+}
